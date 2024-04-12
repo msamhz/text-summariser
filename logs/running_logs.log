@@ -68,3 +68,8 @@ Source-Age: 0
 [2024-04-12 17:40:29,051: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-04-12 17:40:29,052: INFO: common: created directory at: artifacts]
 [2024-04-12 17:40:29,052: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-12 18:51:35,257: INFO: config: PyTorch version 2.2.2+cu118 available.]
+[2024-04-12 18:51:35,642: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-12 18:51:35,644: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-12 18:51:35,645: INFO: common: created directory at: artifacts]
+[2024-04-12 18:51:35,646: INFO: common: created directory at: artifacts/data_transformation]
