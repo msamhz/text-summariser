@@ -176,3 +176,22 @@ x==========x]
 [2024-04-13 07:55:09,759: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-04-13 08:11:28,252: INFO: server: Started server process [27280]]
+[2024-04-13 08:11:28,253: INFO: on: Waiting for application startup.]
+[2024-04-13 08:11:28,253: INFO: on: Application startup complete.]
+[2024-04-13 08:11:28,253: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-04-13 08:12:53,571: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-13 08:12:53,576: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-13 08:12:53,577: INFO: common: created directory at: artifacts]
+[2024-04-13 08:12:53,578: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-13 08:16:28,015: INFO: server: Shutting down]
+[2024-04-13 08:16:28,114: INFO: server: Finished server process [27280]]
+[2024-04-13 08:16:28,135: ERROR: on: Traceback (most recent call last):
+  File "D:\SGH\text-summariser\env\lib\site-packages\starlette\routing.py", line 638, in lifespan
+    await receive()
+  File "D:\SGH\text-summariser\env\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\sufya\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+]
