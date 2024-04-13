@@ -36,10 +36,10 @@ class ModelTrainer:
             evaluation_strategy='steps', eval_steps=500, save_steps=1e6,
             gradient_accumulation_steps=16
         ) 
-
+        # using test to train for now to quickly finish POC training
         trainer = Trainer(model=model_pegasus, args=trainer_args,
                   tokenizer=tokenizer, data_collator=seq2seq_data_collator,
-                  train_dataset=dataset_samsum_pt["train"], 
+                  train_dataset=dataset_samsum_pt["test"], 
                   eval_dataset=dataset_samsum_pt["validation"])
         
         trainer.train()
